@@ -25,7 +25,7 @@ This Terraform module creates a DynamoDB table with support for various features
 
 ```hcl
 module "dynamodb_table" {
-  source = "terraform-aws-modules/dynamodb-table/aws"
+  source = "Senora-dev/dynamodb-table/aws"
 
   name                        = "my-table"
   billing_mode               = "PROVISIONED"
